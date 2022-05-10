@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The GYM - HomePage</title>
+
+  <!-- Main Style -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- WideScreen Style -->
+  <link rel="stylesheet" href="./css/widescreen.css" media="screen and (min-width: 1100px)">
+  <!-- Smartphone Style -->
+  <link rel="stylesheet" href="./css/mobile.css" media="screen and (max-width: 768px)">
+</head>
+<body id="home">
+  
+  <!-- Navbar -->
+  <nav  id="navbar" class="bg-dark">
+      <div class="logo">
+        <a href="#home"><img src="./img/logogym.gif" alt="GYM Logo"></a>
+      </div>
+
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#Classes">Classes</a></li>
+        <li><a href="#trainers">Trainers</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+  </nav>
+
+  <!-- ShowCase -->
+  <section id="showcase" class="text-center">
+    <div class="showcase-content">
+      <h1 class="l-heading py-1">Don't Wish For<br> A Good Body <br> <span class="primary-text">WORK</span> <br> For It. </h1> 
+      
+      <a href="#contact" class="btn">Join us </a>
+    </div>
+  </section>
+
+  <section id="about" class="bg-light py-1">
+    <div class="container">
+      <h2 class="m-heading text-center py-1">Push your Self To <span class="primary-text">GYM</span></h2>
+      <div class="about-content">
+        <div>
+          <p>Build yourself it's more than just lifting weights.
+          <p> The commitment ,the dedication,the consistency . it challenges  you and builds character for becoming the best version of yourself.</p>
+        </div>
+        <img class="box-shadow" src="./img/aboutus.jpg" alt="About Us">
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section id="cta" class="text-center">
+    <div class="cta-content">
+      <div class="container">
+        <h1 class="l-heading py-1">Don't <span class="primary-text">Think</span>, Just <span class="primary-text">Do it</span>!</h1>
+        <p> " THE PAIN YOU FEEL TODAY WILL BE THE STRENGTH YOU FEEL TOMORROW " .</p>
+        <br>
+        <a href="#contact" class="btn"> Start Now</a>
+     </div>
+    </div>
+  </section>
+
+  <section id="Classes" class="text-center py-1">
+    <h2 class="m-heading py-1">Our <span class="primary-text">Classes</span></h2>
+    <div class="container">
+    <div class="boxes">
+      <div class="box p-1">
+        <img src="./img/Fitness.jpg" alt="Fitness">
+        <div>
+          <h3>Fitness Class</h3>
+          <p> Take your time to build something you will be proud of </p>
+        </div>
+      </div>
+      <div class="box p-1">
+        <img src="./img/crossfit.png" alt="crossfit">
+        <div>
+          <h3>Crossfit Class</h3>
+          <p> The only sport where the loudest cheers are for the last to finish </p>
+        </div>
+      </div>
+      <div class="box p-1">
+        <img src="./img/boxing.jpg" alt="boxing Training">
+        <div>
+          <h3>Boxing Class </h3>
+          <p> Never A Victim forever a Fighter.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section id="trainers" class="bg-light py-1">
+    <div class="container">
+      <h2 class="m-heading py-1 text-center">OUR  <span class="primary-text">Trainers</span></h2>
+      <div class="trainer-boxes">
+        <div class="trainer-box box-shadow p-1">
+          <img src="./img/fit.jpg" alt="Trainer-1">
+          <span class="primary-text">fitness Trainer</span>
+          <h4>Emily</h4>
+      
+
+          <ul>
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+        <div class="trainer-box box-shadow p-1">
+          <img src="./img/cross trainer.png" alt="Trainer-2">
+          <span class="primary-text">Crossfit Trainer</span>
+          <h4> David </h4>
+         
+          <ul>
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+        <div class="trainer-box box-shadow p-1">
+          <img src="./img/box.jpg" alt="Trainer-3">
+          <span class="primary-text">boxingTrainer</span>
+          <h4>Mark</h4>
+          
+
+          <ul>
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact-us bg-primary p-1">
+      <h3 class="m-heading py-1">Feel free to ask anything</h3>
+
+      <form>
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Name">
+          <input type="email" name="email" placeholder="email">
+        </div>
+        <div>
+          <textarea name="message" placeholder="Message" cols="10" rows="10"></textarea>
+        </div>
+        <input class="btn btn-dark" type="submit" value="send message">
+      </form>
+    </div>
+
+ 
+</body>
+</html>
